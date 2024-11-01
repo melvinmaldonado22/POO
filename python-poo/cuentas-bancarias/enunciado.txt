@@ -1,0 +1,31 @@
+Ejercicio: Sistema de Gestión de Cuentas Bancarias
+
+Descripción:
+Vamos a crear un sistema de gestión de cuentas bancarias en el que los clientes pueden tener diferentes tipos de cuentas. Cada cuenta tendrá características y comportamientos específicos, como depositar, retirar y consultar el saldo. Implementaremos una clase base CuentaBancaria y clases derivadas CuentaAhorro y CuentaCorriente.
+
+Requisitos:
+
+CuentaBancaria: clase base que tiene los atributos y métodos comunes a todas las cuentas.
+
+Atributos:
+titular: Nombre del titular de la cuenta.
+saldo: Saldo de la cuenta.
+
+Métodos:
+depositar(cantidad): Método para depositar una cantidad en la cuenta.
+retirar(cantidad): Método para retirar una cantidad de la cuenta, asegurándose de que haya fondos suficientes.
+consultar_saldo(): Método para consultar el saldo actual de la cuenta.
+CuentaAhorro: hereda de CuentaBancaria.
+
+Atributo adicional:
+
+tasa_interes: Tasa de interés de la cuenta de ahorro.
+Método adicional:
+aplicar_interes(): Método que aplica el interés al saldo de la cuenta.
+CuentaCorriente: hereda de CuentaBancaria.
+
+Atributo adicional:
+
+sobregiro: Monto máximo de sobregiro permitido en la cuenta corriente.
+Método adicional:
+retirar(cantidad): Sobreescribe el método para permitir un retiro hasta el límite del sobregiro.
