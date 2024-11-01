@@ -1,7 +1,7 @@
 from database import Database
 from usuarioCRUD import Usuario
-db = Database()
 def main ():
+    db = Database()
     while True:
         print(f':::::::::::: Bienvenido al sistema de registro de usuarios ::::::::::::')
         print(f'Ingrese una acción a realizar')

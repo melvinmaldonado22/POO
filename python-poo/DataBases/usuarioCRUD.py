@@ -1,6 +1,4 @@
 import pymysql
-from database import Database
-import json
 from tabulate import tabulate
 class Usuario:
     def __init__(self, db, nombre, apellido, email, contraseña, telefono=None, direccion=None):
