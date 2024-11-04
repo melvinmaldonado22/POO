@@ -4,7 +4,7 @@ def main ():
     db = Database()
     while True:
         print(f':::::::::::: Bienvenido al sistema de registro ::::::::::::')
-        print(f'Se agregó una línea en la rama prueba...')
+        print(f'Se agregó esta línea')
         print("""
             1. Crear usuario
             2. Actualizar usuario
