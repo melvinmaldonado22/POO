@@ -3,7 +3,7 @@ from usuarioCRUD import Usuario
 def main ():
     db = Database()
     while True:
-        print(f':::::::::::: Bienvenido al sistema de registro de usuarios ::::::::::::')
+        print(f':::::::::::: Bienvenido al sistema de registro ::::::::::::')
         print(f'Ingrese una acción a realizar')
         print("""
             1. Crear usuario
