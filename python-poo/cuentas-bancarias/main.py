@@ -21,6 +21,5 @@ def main():
     cuenta2.retirar(700)  # Intento de retiro que utiliza el sobregiro
     cuenta2.consultar_saldo()
     cuenta2.retirar(100)
-
 if __name__ == "__main__":
     main()
